@@ -1,0 +1,14 @@
+$basefont: Helvetica;
+$basefontSize: 12px;
+$basefontColor: #3B3D3F;
+$whitebackground: #EEF4F9;
+$bluebackground: #EEFAFF;
+$colorRed: #FC3401;
+$colorBlue: #03B9ED;
+$colorGray: #F4F5F5;
+
+body {
+    font-family: $basefont;
+    font-size: $basefontSize;
+    color: $basefontColor;
+}
