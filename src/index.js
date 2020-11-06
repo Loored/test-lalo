@@ -4,9 +4,10 @@ import SideBar from './components/SideBar';
 
 import './styles.scss';
 
+
 const Index = () => {
-  return <div>Welcome to React!
+  return (<div className="sidebar">
     <SideBar />
-  </div>;
+  </div>);
 };
 ReactDOM.render(<Index />, document.getElementById('root'));
