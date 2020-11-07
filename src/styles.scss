@@ -74,24 +74,29 @@ body {
 }
 
 div.email__box {
-    width: 120%;
+    background-color: $bluebackground;
+    width: 111.5%;
     margin-top: 1.5em;
     margin-left: -17px;
-    border-left: 3px solid $colorBlue;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-left: 2px solid $colorBlue;
+    border-top: 2px solid $colorGray;
     h2 {
+        
         font-weight: bold;
         color: $colorBlue;
         font-size: $basefontSize;
-        margin-left: 10px;
+        margin-left: 1em;
+        margin-bottom: 0.5em;
     }
-
+    .email {
+        border-bottom: 1px solid black; //cambiar a $colorGray
+    }
     h3 {
+        margin-top: 0;
         font-weight: lighter;
         color: grey;
         font-size: $basefontSize;
-        margin-left: 10px;
+        margin-left: 1em;
     }
 }
 

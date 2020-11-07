@@ -7,7 +7,7 @@ import './styles.scss';
 
 const Index = () => {
   return (<div className="sidebar">
-    <SideBar />
+    <SideBar/>
   </div>);
 };
 ReactDOM.render(<Index />, document.getElementById('root'));
