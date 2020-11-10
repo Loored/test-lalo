@@ -7,7 +7,6 @@ const mappedEmails = Emaildata.map((email) => (
     key={email.from} tags={email.tags} body={email.body}/>
 ));
   
-// console.log(mappedEmails);
 const FullEmail = ({tags, body}) => {
   return (
     <div className="full__email">

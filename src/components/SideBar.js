@@ -1,5 +1,4 @@
 import React from 'react';
-import Input from './Input';
 import FilterBy from './FilterBy';
 import Inbox from './Inbox';
 import DisplayEmail from './DisplayEmail';
@@ -14,10 +13,8 @@ const SideBar = () => {
         </div>
         <hr/>
         <div className="sidebar__column"> 
-          {/* <Input /> */}
           <DisplayEmail />
         </div>
-      
       </div>
     </div>
   );

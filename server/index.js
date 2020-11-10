@@ -11,8 +11,6 @@ const DIST_DIR = path.join(__dirname, '../dist');
 const HTML_FILE = path.join(DIST_DIR, 'index.html'); 
 const datamail = path.join(DIST_DIR, '../mail-data.json');
 
-// app.use(express.static(DIST_DIR));
-
 app.use(
   [webpackDevMiddleware(compiler, {
     publicPath: config.output.publicPath
@@ -25,10 +23,6 @@ app.use(
 app.get('/api', (req, res) => { 
   res.sendFile(datamail);
 });
-
-// app.get('/', (req, res) => {
-//   res.sendFile(HTML_FILE);  
-// });
 
 app.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'dist/index.html')); 

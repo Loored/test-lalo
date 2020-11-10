@@ -8,16 +8,7 @@ const mappedEmails = Emaildata.map((email) => (
 ));
 
 export default function DisplayEmail() {
-
   const [email, setEmail] = useState('');
-  console.log(email);
-  //   const filteredEmails = Emaildata.filter((email) => {
-  //     email.subject.includes(email.subject.toLowerCase().trim());
-  //   });
-
-  //   console.log(filteredEmails);
-  
-
   return (
     <div className="input__box">
       <input 
@@ -26,7 +17,6 @@ export default function DisplayEmail() {
         type="text" name="search" placeholder="Search"/>
       <i className="fa fa-search"></i>
       <div className="sidebar__column"> 
-        {/* <Email /> */}
         {mappedEmails}
       </div>
     </div>
