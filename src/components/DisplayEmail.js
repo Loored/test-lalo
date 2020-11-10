@@ -4,11 +4,19 @@ import Emaildata from '../../mail-data.json';
 
 const mappedEmails = Emaildata.map((email) => (
   <Email 
-    key={email.from} from={email.from} subject={email.subject}/>
+    key={email.from} 
+    from={email.from} 
+    subject={email.subject} />
 ));
+
+// const filteredEmail = Emaildata.filter((email) => {
+//   email.subject.includes(email.subject.toLowerCase().trim());
+// });
 
 export default function DisplayEmail() {
   const [email, setEmail] = useState('');
+  
+  console.log(email);
   return (
     <div className="input__box">
       <input 
