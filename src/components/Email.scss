@@ -1,0 +1,49 @@
+@import './variables.scss';
+
+
+.email__box {
+    background-color: $bluebackground;
+    width: 112%;
+    letter-spacing: 0.5px;
+    margin-left: -17px;
+    border-left: 2px solid $colorBlue;
+    border-top: 1px solid $colorGray;
+    
+    .email__info {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        .email__hour {
+            font-weight: 600;
+            font-style: normal;
+            position: relative;
+            top: -30px;
+            letter-spacing: 0;
+            p {
+                font-size: 10px;
+                margin: 0;
+            }
+        }
+        .fa {
+            position: relative;
+            top: -15px;
+        }
+    }
+    h2 {
+        font-weight: bold;
+        color: $colorBlue;
+        font-size: $basefontSize;
+        margin-left: 1em;
+        margin-bottom: 0.5em;
+    }
+    .email {
+        border-bottom: 1px solid $colorLessGray; //cambiar a $colorGray
+    }
+    h3 {
+        margin-top: 0;
+        font-weight: lighter;
+        color: grey;
+        font-size: $basefontSize;
+        margin-left: 1em;
+    }
+}

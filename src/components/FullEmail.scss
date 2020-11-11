@@ -1,0 +1,44 @@
+@import './variables.scss';
+
+
+.full__email {
+    padding: 2%;
+    width: 51vw;
+    hr {
+        border: 0;
+        height: 2px;
+        position: absolute;
+        right: 1px;
+        width: 100%;
+        margin-top: 1em;
+        background: $whitebackground;
+    }
+    button {
+        margin-left: 2%;
+        border: 0;
+        color: white; 
+        font-weight: 400;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        .red__button {
+           background-color: $colorRed;
+        }
+        .grey__button {
+            background-color: $colorGray;
+            color: grey;
+            border: 1px solid $colorLessGray;
+            margin-right: 25%;
+        }
+        .blue__button {
+            background-color: $colorBlue;
+            font-weight: bold;
+            margin-left: 2%;
+        }
+    }
+}

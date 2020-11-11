@@ -1,0 +1,24 @@
+ .inbox__box {
+    .inbox__text {
+        font-weight: bold;
+        color: grey;
+        letter-spacing: 0.5px;
+        margin: 0;
+        padding: 0;
+    }
+    .inbox__count {
+        box-shadow:
+        0 2.8px 2.2px rgba($colorRed, 0.034),
+        0 6.7px 5.3px rgba($colorRed, 0.048),
+        0 12.5px 10px rgba($colorRed, 0.03),
+        0 15px 10px rgba($colorRed, 0.072),
+        0 41.8px 33.4px rgba($colorRed, 0.086),
+        0 100px 80px rgba($colorRed, 0.12);
+        border-radius: 50%;
+        padding: 2px;
+        padding-right: 8px;
+        padding-left: 7px;
+        background-color: $colorRed;
+        color: $colorGray;
+    }
+}

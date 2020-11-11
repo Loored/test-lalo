@@ -6,7 +6,9 @@ const Inbox = () => {
     <div className="inbox__box">
       <p className="inbox__text">
         Inbox 
-        <span className="inbox__count" >{numInbox}</span>
+        <span className="inbox__count" >
+          {numInbox}
+        </span>
       </p>
     </div>
   );

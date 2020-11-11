@@ -1,0 +1,6 @@
+@use './variables.scss';
+
+.app {
+    display: flex;
+    background-color: $colorGray;
+}
